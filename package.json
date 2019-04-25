@@ -1,0 +1,20 @@
+{
+  "name": "csv-to-ssml",
+  "version": "0.0.1",
+  "description": "Simple tool to convert a CSV file to SSML. CSV is often more approachable and a lot easier to read.",
+  "main": "index.js",
+  "repository": "https://github.com/jcblw/csv-to-ssml",
+  "author": "Jacob Lowe ",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "dependencies": {
+    "ssml": "^0.0.4"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "nyc": "^14.0.0"
+  }
+}
